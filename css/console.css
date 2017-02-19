@@ -1,0 +1,29 @@
+.console {
+	padding: 0 0.25em;
+	margin: 0;
+	color: #00ff00;
+	background-color: #000;
+	font-family: Menlo, Monaco, Courier, monospace;
+}
+
+.console .line {
+	display: block;
+	width: 100%;
+}
+
+.console .line.output {
+	padding: 0 0.5em;
+}
+
+.console .line.output.error {
+	color: #ff0000;
+}
+
+.console .line.output a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+noscript {
+	margin: 0;
+}
